@@ -15,7 +15,7 @@ while n > 0:
             print("Введено неверное кол-во камней")
             exit()
         while n - playerTurn < 1:
-            print("Кол-во камней в куче не может быть отрицательным")
+            print("Кол-во камней в куче не может быть отрицательным!")
             playerTurn = int(input())
             continue
         n -= playerTurn
